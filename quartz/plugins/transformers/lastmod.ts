@@ -12,10 +12,25 @@ const defaultOptions: Options = {
   priority: ["frontmatter", "git", "filesystem"],
 }
 
+type MaybeDate = undefined | string | number
+
 // YYYY-MM-DD
 const iso8601DateOnlyRegex = /^\d{4}-\d{2}-\d{2}$/
+const obsidianLinkRegex = /^\[\[(.+?)\]\]$/
 
-function coerceDate(fp: string, d: any): Date {
+function normalizeFrontmatterDate(value: MaybeDate): MaybeDate {
+  if (typeof value === "string") {
+    const trimmed = value.trim()
+    const match = trimmed.match(obsidianLinkRegex)
+    if (match) {
+      return match[1]
+    }
+  }
+
+  return value
+}
+
+function coerceDate(fp: string, d: MaybeDate): Date {
   // check ISO8601 date-only format
   // we treat this one as local midnight as the normal
   // js date ctor treats YYYY-MM-DD as UTC midnight
@@ -36,8 +51,6 @@ function coerceDate(fp: string, d: any): Date {
 
   return invalidDate ? new Date() : dt
 }
-
-type MaybeDate = undefined | string | number
 export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   const opts = { ...defaultOptions, ...userOpts }
   return {
@@ -74,9 +87,23 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                 created ||= st.birthtimeMs
                 modified ||= st.mtimeMs
               } else if (source === "frontmatter" && file.data.frontmatter) {
-                created ||= file.data.frontmatter.created as MaybeDate
-                modified ||= file.data.frontmatter.modified as MaybeDate
-                published ||= file.data.frontmatter.published as MaybeDate
+                const frontmatter = file.data.frontmatter
+                const frontmatterCreated = normalizeFrontmatterDate(
+                  (frontmatter.created as MaybeDate) ??
+                    (frontmatter["created-on"] as MaybeDate),
+                )
+                const frontmatterModified = normalizeFrontmatterDate(
+                  (frontmatter.modified as MaybeDate) ??
+                    (frontmatter["modified-on"] as MaybeDate),
+                )
+                const frontmatterPublished = normalizeFrontmatterDate(
+                  (frontmatter.published as MaybeDate) ??
+                    (frontmatter["published-on"] as MaybeDate),
+                )
+
+                created ||= frontmatterCreated
+                modified ||= frontmatterModified
+                published ||= frontmatterPublished
               } else if (source === "git" && repo) {
                 try {
                   const relativePath = path.relative(repositoryWorkdir, fullFp)

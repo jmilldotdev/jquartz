@@ -17,6 +17,9 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "content": "tsx ./scripts/content.ts",
+    "serve": "npm run content && npx quartz build --serve",
+    "sync": "npx quartz sync",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
   },
   "engines": {

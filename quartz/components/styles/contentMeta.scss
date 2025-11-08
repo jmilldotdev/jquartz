@@ -1,6 +1,14 @@
 .content-meta {
   margin-top: 0;
   color: var(--darkgray);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.content-meta__text {
+  margin: 0;
 
   &[show-comma="true"] {
     > *:not(:last-child) {
@@ -11,4 +19,23 @@
       }
     }
   }
+}
+
+.content-meta__external {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.9em;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  border: 1px solid var(--secondary);
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem;
+  color: var(--secondary);
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.content-meta__external:hover {
+  color: var(--tertiary);
+  border-color: var(--tertiary);
 }

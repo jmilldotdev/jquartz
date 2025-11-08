@@ -15,6 +15,9 @@ This plugin accepts the following configuration options:
 
 When loading the frontmatter, the value of [[Frontmatter#List]] is used.
 
+> [!tip]
+> Frontmatter aliases `created-on`, `modified-on`, and `published-on` are also recognized. If their values are Obsidian-style links (e.g. `[[2025-05-17]]`), the link wrapper is stripped automatically so Quartz can parse the date.
+
 > [!warning]
 > If you rely on `git` for dates, make sure `defaultDateType` is set to `modified` in `quartz.config.ts`.
 >

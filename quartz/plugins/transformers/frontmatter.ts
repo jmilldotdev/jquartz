@@ -23,6 +23,15 @@ function coalesceAliases(data: { [key: string]: any }, aliases: string[]) {
   }
 }
 
+function normalizeFrontmatterDate(value: unknown): unknown {
+  if (typeof value !== "string") return value
+  const trimmed = value.trim()
+  if (trimmed.startsWith("[[") && trimmed.endsWith("]]")) {
+    return trimmed.slice(2, -2)
+  }
+  return trimmed
+}
+
 function coerceToArray(input: string | string[]): string[] | undefined {
   if (input === undefined || input === null) return undefined
 
@@ -100,21 +109,36 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
 
             const socialImage = coalesceAliases(data, ["socialImage", "image", "cover"])
 
-            const created = coalesceAliases(data, ["created", "date"])
+            const createdRaw = coalesceAliases(data, [
+              "created",
+              "created-on",
+              "created_at",
+              "createdAt",
+              "date",
+            ])
+            const created = createdRaw ? normalizeFrontmatterDate(createdRaw) : undefined
             if (created) {
               data.created = created
             }
 
-            const modified = coalesceAliases(data, [
+            const modifiedRaw = coalesceAliases(data, [
               "modified",
+              "modified-on",
               "lastmod",
               "updated",
               "last-modified",
             ])
+            const modified = modifiedRaw ? normalizeFrontmatterDate(modifiedRaw) : undefined
             if (modified) data.modified = modified
             data.modified ||= created // if modified is not set, use created
 
-            const published = coalesceAliases(data, ["published", "publishDate", "date"])
+            const publishedRaw = coalesceAliases(data, [
+              "published",
+              "published-on",
+              "publishDate",
+              "date",
+            ])
+            const published = publishedRaw ? normalizeFrontmatterDate(publishedRaw) : undefined
             if (published) data.published = published
 
             if (socialImage) data.socialImage = socialImage

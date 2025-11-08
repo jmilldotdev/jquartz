@@ -1,17 +1,15 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
+import { QuartzComponent } from "./quartz/components/types"
 import * as Component from "./quartz/components"
+
+const EmptyFooter: QuartzComponent = () => null
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
-  }),
+  footer: EmptyFooter,
 }
 
 // components for pages that display a single page (e.g. a single note)
@@ -38,6 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.RandomPage(),
     Component.Explorer(),
   ],
   right: [
@@ -62,6 +61,7 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
+    Component.RandomPage(),
     Component.Explorer(),
   ],
   right: [],

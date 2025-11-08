@@ -251,6 +251,11 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
     }
   })
 
+  // Reset the changes tracker now that we've built everything requested this cycle
+  for (const key of Object.keys(changesSinceLastBuild)) {
+    delete changesSinceLastBuild[key]
+  }
+
   // update allFiles and then allSlugs with the consistent view of content map
   ctx.allFiles = Array.from(contentMap.keys())
   ctx.allSlugs = ctx.allFiles.map((fp) => slugifyFilePath(fp as FilePath))

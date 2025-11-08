@@ -1,6 +1,13 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
+const args = process.argv.slice(2)
+const isServeMode = args.some((arg) => arg === "--serve" || arg === "-s")
+const explicitlyEnableOgImages = process.env.QUARTZ_ENABLE_OG_IMAGES === "true"
+const explicitlyDisableOgImages = process.env.QUARTZ_DISABLE_OG_IMAGES === "true"
+const shouldGenerateOgImages =
+  explicitlyEnableOgImages || (!isServeMode && !explicitlyDisableOgImages)
+
 /**
  * Quartz 4 Configuration
  *
@@ -8,7 +15,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "jmill",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -18,37 +25,37 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
-    defaultDateType: "modified",
+    defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Space Grotesk",
+        body: "Space Grotesk",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#05070d",
+          lightgray: "#0d1420",
+          gray: "#1b2636",
+          darkgray: "#e0fbff",
+          dark: "#f9fbff",
+          secondary: "#00ffff",
+          tertiary: "#ff4800",
+          highlight: "rgba(0, 255, 255, 0.12)",
+          textHighlight: "#00ffff55",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#010104",
+          lightgray: "#0b1422",
+          gray: "#1f2e40",
+          darkgray: "#e4f9ff",
+          dark: "#ffffff",
+          secondary: "#00ffff",
+          tertiary: "#ff4800",
+          highlight: "rgba(0, 255, 255, 0.12)",
+          textHighlight: "#ff480055",
         },
       },
     },
@@ -88,8 +95,8 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      // Only generate OG images when not running the dev server unless explicitly overridden
+      ...(shouldGenerateOgImages ? [Plugin.CustomOgImages()] : []),
     ],
   },
 }

@@ -1,0 +1,10 @@
+---
+tags:
+aliases:
+related:
+publish: true
+created-on: '2021-09-27'
+---
+**Anti-memory** is _something related to the current context which you are **unlikely to remember yourself**_
+
+Knowledge Activations can be used as antimemory, by keeping metadata on how recently sometthing was created or retrieved. The combination of _close in semantic space to current context_ + _not recently created or retrieved_ can expose your antimemory on a topic
