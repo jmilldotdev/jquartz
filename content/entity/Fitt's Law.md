@@ -12,4 +12,4 @@ created-on: '2022-05-27'
 > [Wikipedia](https://en.wikipedia.org/wiki/Fitts's%20law)
 
 
-![[Pasted image 20220527075212.png]]
+![[attachments/Pasted image 20220527075212.png]]

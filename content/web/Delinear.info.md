@@ -8,6 +8,6 @@ url: http://delinear.info.harmvandendorpel.com/
 ---
 
 
-![[Pasted image 20220108080841.png]]
+![[attachments/Pasted image 20220108080841.png]]
 
 A messy website for displaying a portfolio.

@@ -9,4 +9,4 @@ url: https://anideafora.website/
 
 Random website idea generator.
 
-![[Pasted image 20230930083345.png]]
+![[attachments/Pasted image 20230930083345.png]]

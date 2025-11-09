@@ -23,5 +23,5 @@ A running number. Each card in the deck has an individual number. For 0-9 cards 
 
 A short title. This only appears on 0-X cards and works well when telling a story.
 
-![[Pasted image 20231018085618.png]]
+![[attachments/Pasted image 20231018085618.png]]
 

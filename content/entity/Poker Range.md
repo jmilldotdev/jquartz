@@ -9,4 +9,4 @@ A modern concept in Hold'em Poker, where one's actions pin them to a known set o
 
 A common play pattern this could result in is taking a pot while holding nothing based on the combination of the board and your opponents' perception of your range. 
 
-![[Pasted image 20210819210646.png]]
+![[attachments/Pasted image 20210819210646.png]]

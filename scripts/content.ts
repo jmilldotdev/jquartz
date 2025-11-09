@@ -87,41 +87,73 @@ function registerLinkTarget(destPath: string) {
   trackLinkTarget(path.posix.basename(withoutExt))
 }
 
+function registerFolderTarget(dirPath: string) {
+  const relativePath = path.relative(destDir, dirPath).replace(/\\/g, "/")
+  const normalized = relativePath.replace(/\/+$/g, "")
+  if (normalized.length === 0) {
+    return
+  }
+  trackLinkTarget(normalized)
+  trackLinkTarget(path.posix.basename(normalized))
+}
+
 function populateLinkTargets(dir: string) {
   availableLinkTargets.clear()
   availableLinkTargetsLower.clear()
-  const entries = fs.readdirSync(dir, { withFileTypes: true })
-  for (const entry of entries) {
-    const fullPath = path.join(dir, entry.name)
-    if (entry.isDirectory()) {
-      populateLinkTargets(fullPath)
-    } else if (entry.isFile() && entry.name.endsWith(".md")) {
-      registerLinkTarget(fullPath)
+
+  function walk(currentDir: string) {
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true })
+    for (const entry of entries) {
+      const fullPath = path.join(currentDir, entry.name)
+      if (entry.isDirectory()) {
+        registerFolderTarget(fullPath)
+        walk(fullPath)
+      } else if (entry.isFile() && entry.name.endsWith(".md")) {
+        registerLinkTarget(fullPath)
+      }
     }
   }
+
+  walk(dir)
 }
 
 function copyAttachment(content: string, sourceDir: string, destDir: string): string {
-  const regex = /!\[\[(.*?)\]\]/g
-  let match
-  let modifiedContent = content
+  const regex = /!\[\[([^[\]]+)\]\]/g
   const attachmentsOutputDir = path.join(destDir, "attachments")
   fs.mkdirSync(attachmentsOutputDir, { recursive: true })
 
-  while ((match = regex.exec(content)) !== null) {
-    const fileName = match[1]
+  return content.replace(regex, (match, inner) => {
+    const parts = inner.split("|")
+    const targetRaw = (parts[0] ?? "").trim()
+    const suffix = parts.length > 1 ? `|${parts.slice(1).join("|")}` : ""
+
+    if (!targetRaw) {
+      return match
+    }
+
+    const ext = path.extname(targetRaw).toLowerCase()
+    if (!ext || ext === ".md") {
+      // Not an attachment; keep original match
+      return match
+    }
+
+    const normalizedTarget = targetRaw.replace(/^\.?\//, "")
+    const needsPrefix = !normalizedTarget.includes("/")
+    const fileName = path.basename(normalizedTarget)
     const sourcePath = path.join(attachmentsDir, fileName)
     const destPath = path.join(attachmentsOutputDir, fileName)
 
     if (fs.existsSync(sourcePath)) {
+      fs.mkdirSync(path.dirname(destPath), { recursive: true })
       fs.copyFileSync(sourcePath, destPath)
       console.log(`Copied attachment: ${sourcePath} to ${destPath}`)
     } else {
       console.warn(`Attachment not found: ${sourcePath}`)
     }
-  }
 
-  return modifiedContent
+    const linkTarget = needsPrefix ? `attachments/${fileName}` : normalizedTarget
+    return `![[${linkTarget}${suffix}]]`
+  })
 }
 
 function copyPublishedFiles(dir: string) {
@@ -142,7 +174,9 @@ function copyPublishedFiles(dir: string) {
         // Determine destination folder based on parent directory name
         const parentFolderName = path.basename(path.dirname(fullPath))
         const parentDestDir = path.join(destDir, parentFolderName)
-        const destPath = path.join(parentDestDir, destFileName)
+        const targetDir =
+          destFileName.toLowerCase() === "index.md" ? destDir : parentDestDir
+        const destPath = path.join(targetDir, destFileName)
 
         // Remove H1 level headings (lines starting with a single #)
         let modifiedContent = content
@@ -153,7 +187,7 @@ function copyPublishedFiles(dir: string) {
         // Copy attachments and update links
         modifiedContent = copyAttachment(modifiedContent, sourceDir, destDir)
 
-        fs.mkdirSync(parentDestDir, { recursive: true })
+        fs.mkdirSync(targetDir, { recursive: true })
         fs.writeFileSync(destPath, modifiedContent)
         console.log(`Copied and modified: ${fullPath} to ${destPath}`)
       }

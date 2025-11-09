@@ -10,4 +10,4 @@ created-on: '2024-01-27'
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Earthbag%20construction)
 
-![[Pasted image 20240127074812.png]]
+![[attachments/Pasted image 20240127074812.png]]

@@ -9,4 +9,4 @@ created-on: '2021-10-05'
 >
 > [Wikipedia](https://en.wikipedia.org/wiki/Spintria)
 
-![[Pasted image 20211004224547.png]]
+![[attachments/Pasted image 20211004224547.png]]

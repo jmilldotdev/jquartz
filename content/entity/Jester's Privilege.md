@@ -9,4 +9,4 @@ created-on: '2024-01-29'
 > [Jester - Wikipedia](https://en.wikipedia.org/wiki/Jester#Jester's_privilege)
 
 
-![[Pasted image 20240129081030.png]]
+![[attachments/Pasted image 20240129081030.png]]

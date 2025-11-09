@@ -12,4 +12,4 @@ Languages that are spoken faster have less information density per syllable!
 
 One of the coolest results in linguistics.
 
-![[Pasted image 20251031113047.png]]
+![[attachments/Pasted image 20251031113047.png]]

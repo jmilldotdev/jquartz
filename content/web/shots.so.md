@@ -9,4 +9,4 @@ url: https://shots.so/
 
 Create device mockups in seconds
 
-![[Pasted image 20240829180916.png]]
+![[attachments/Pasted image 20240829180916.png]]

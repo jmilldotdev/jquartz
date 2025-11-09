@@ -9,6 +9,7 @@ import { QuartzPluginData } from "../../plugins/vfile"
 import { ComponentChildren } from "preact"
 import { concatenateResources } from "../../util/resources"
 import { trieFromAllFiles } from "../../util/ctx"
+import { stripSlashes, trimSuffix, isFolderPath } from "../../util/path"
 
 interface FolderContentOptions {
   /**
@@ -31,63 +32,75 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     const { tree, fileData, allFiles, cfg } = props
 
     const trie = (props.ctx.trie ??= trieFromAllFiles(allFiles))
+    const folderSlug = stripSlashes(trimSuffix(fileData.slug!, "index"))
     const folder = trie.findNode(fileData.slug!.split("/"))
-    if (!folder) {
-      return null
-    }
 
-    const allPagesInFolder: QuartzPluginData[] =
-      folder.children
-        .map((node) => {
-          // regular file, proceed
-          if (node.data) {
-            return node.data
-          }
+    const pageMap = new Map<string, QuartzPluginData>()
 
-          if (node.isFolder && options.showSubfolders) {
-            // folders that dont have data need synthetic files
-            const getMostRecentDates = (): QuartzPluginData["dates"] => {
-              let maybeDates: QuartzPluginData["dates"] | undefined = undefined
-              for (const child of node.children) {
-                if (child.data?.dates) {
-                  // compare all dates and assign to maybeDates if its more recent or its not set
-                  if (!maybeDates) {
-                    maybeDates = { ...child.data.dates }
-                  } else {
-                    if (child.data.dates.created > maybeDates.created) {
-                      maybeDates.created = child.data.dates.created
-                    }
+    if (folder) {
+      for (const node of folder.children) {
+        if (node.data) {
+          pageMap.set(node.data.slug!, node.data)
+          continue
+        }
 
-                    if (child.data.dates.modified > maybeDates.modified) {
-                      maybeDates.modified = child.data.dates.modified
-                    }
+        if (node.isFolder && options.showSubfolders) {
+          const getMostRecentDates = (): QuartzPluginData["dates"] => {
+            let maybeDates: QuartzPluginData["dates"] | undefined = undefined
+            for (const child of node.children) {
+              if (child.data?.dates) {
+                if (!maybeDates) {
+                  maybeDates = { ...child.data.dates }
+                } else {
+                  if (child.data.dates.created > maybeDates.created) {
+                    maybeDates.created = child.data.dates.created
+                  }
 
-                    if (child.data.dates.published > maybeDates.published) {
-                      maybeDates.published = child.data.dates.published
-                    }
+                  if (child.data.dates.modified > maybeDates.modified) {
+                    maybeDates.modified = child.data.dates.modified
+                  }
+
+                  if (child.data.dates.published > maybeDates.published) {
+                    maybeDates.published = child.data.dates.published
                   }
                 }
               }
-              return (
-                maybeDates ?? {
-                  created: new Date(),
-                  modified: new Date(),
-                  published: new Date(),
-                }
-              )
             }
-
-            return {
-              slug: node.slug,
-              dates: getMostRecentDates(),
-              frontmatter: {
-                title: node.displayName,
-                tags: [],
-              },
-            }
+            return (
+              maybeDates ?? {
+                created: new Date(),
+                modified: new Date(),
+                published: new Date(),
+              }
+            )
           }
-        })
-        .filter((page) => page !== undefined) ?? []
+
+          pageMap.set(node.slug, {
+            slug: node.slug,
+            filePath: node.data?.filePath,
+            dates: getMostRecentDates(),
+            frontmatter: {
+              title: node.displayName,
+              tags: [],
+            },
+          } as QuartzPluginData)
+        }
+      }
+    }
+
+    for (const page of allFiles) {
+      const slug = page.slug ?? ""
+      if (!slug || isFolderPath(slug)) continue
+
+      if (
+        (folderSlug.length === 0 && !slug.includes("/")) ||
+        (folderSlug.length > 0 && slug.startsWith(`${folderSlug}/`))
+      ) {
+        pageMap.set(slug, page)
+      }
+    }
+
+    const allPagesInFolder = Array.from(pageMap.values())
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
     const classes = cssClasses.join(" ")
     const listProps = {

@@ -9,4 +9,4 @@ url: https://orteil.dashnet.org/nested
 
 Infinite drilldown text adventure game thingy.
 
-![[Pasted image 20231111084556.png]]
+![[attachments/Pasted image 20231111084556.png]]
