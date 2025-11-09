@@ -15,3 +15,5 @@ this is a partial reflection of my Obsidian vault.
 or click the random page button 🫡
 
 underconstruction.png
+
+[Return to jmill.dev](https://jmill.dev)
