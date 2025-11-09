@@ -5,7 +5,10 @@ related:
 publish: true
 created-on: "2024-11-17"
 url: https://ethglobal.com/showcase/whalechess-0wfdf
-tagline: on-chain chess game with AI-generated custom pieces and play-to-earn mechanics
+tagline: on-chain chess game with AI-generated custom pieces
+year: "2024"
+genre: Crypto
+artist: BCAD
 ---
 
 Generative onchain chess game created at ETHGlobal Bangkok 2024.

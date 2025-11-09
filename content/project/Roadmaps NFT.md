@@ -6,6 +6,9 @@ publish: true
 created-on: "2022-01-15"
 url: https://ethglobal.com/showcase/roadmaps-38th7
 tagline: 7,777 generative NFT project roadmaps, minted as NFTs
+year: "2022"
+genre: Crypto
+artist: BCAD
 ---
 
 [Opensea](https://testnets.opensea.io/collection/roadmaps-v3)

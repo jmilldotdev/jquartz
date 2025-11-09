@@ -6,6 +6,9 @@ publish: true
 created-on: "2024-08-21"
 url: https://introverse.one
 tagline: get to know each other unforgettably
+year: "2024"
+genre: Game
+artist: BCAD
 ---
 
 A card game for deep connection. A therapy session trojan horsed in as a party game.

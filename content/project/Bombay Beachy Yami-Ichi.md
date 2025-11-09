@@ -6,6 +6,9 @@ publish: true
 created-on: "2023-04-01"
 url: https://bbyi.fyi
 tagline: an IRL internet market event held in Bombay Beach, CA
+year: "2023"
+genre: IRL
+artist: BCAD (feat. Mars)
 ---
 
 An [The Internet Yami-Ichi](http://yami-ichi.biz/) held in Bombay Beach, California during the [Bombay Beach Biennale](https://www.bombaybeachbiennale.org/).

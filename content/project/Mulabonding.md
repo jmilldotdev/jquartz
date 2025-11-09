@@ -6,6 +6,9 @@ publish: true
 created-on: "2022-03-31"
 url: https://drive.google.com/file/d/1-cUBuPIWJx8XtJQGxdj65_E3y80yvb4o/view?usp=sharing
 tagline: 30 people and 5 chatbots write a book together
+year: "2022"
+genre: AI
+artist: Mars
 ---
 
 - [Download (PDF)](https://drive.google.com/file/d/1-cUBuPIWJx8XtJQGxdj65_E3y80yvb4o/view?usp=sharing)

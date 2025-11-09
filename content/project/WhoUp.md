@@ -5,6 +5,9 @@ related:
 publish: true
 created-on: "2024-11-05"
 tagline: reprogram your doomscrolling
+year: "2024"
+genre: Web
+artist: BCAD (feat. Youyang)
 ---
 
 An app built at the Edge City Lanna Hackathon in 2024. The idea is an app which helps you reprogram your phone use tics and replace it with things like moments of reflection, or giving your friends a call.

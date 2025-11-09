@@ -5,7 +5,10 @@ related:
 publish: true
 created-on: "2022-11-06"
 url: https://ethglobal.com/showcase/pepperstake-ksjxn
-tagline: a social accountability protocol which allows anyone to set and achieve goals using Ethereum
+tagline: a social accountability protocol on Ethereum
+year: "2022"
+genre: Crypto
+artist: BCAD
 ---
 
 PepperStake is a social accountability protocol which allows anyone to set and achieve goals using Ethereum.

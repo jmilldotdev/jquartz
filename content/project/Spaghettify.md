@@ -6,6 +6,9 @@ publish: true
 created-on: "2023-02-10"
 url: https://spaghettify.dev
 tagline: what if you could use AI to make your code worse?
+year: "2023"
+genre: AI
+artist: BCAD
 ---
 
 Inspired by Github Copilot Brushes, Spaghettify asks "What if you could use AI to make your code worse?"

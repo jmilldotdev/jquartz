@@ -6,6 +6,9 @@ publish: true
 created-on: "2022-03-17"
 url: https://www.bcad.one/project/3
 tagline: a discord-based tarot reader chatbot
+year: "2022"
+genre: AI
+artist: BCAD
 ---
 
 Bella Coven, Automated Diviner is a Discord-based Tarot reader chatbot.
