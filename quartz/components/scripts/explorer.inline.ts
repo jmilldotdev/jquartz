@@ -79,6 +79,56 @@ function toggleFolder(evt: MouseEvent) {
   localStorage.setItem("fileTree", stringifiedFileTree)
 }
 
+function gatherDescendantFileSlugs(node: FileTrieNode): FullSlug[] {
+  const files: FullSlug[] = []
+
+  for (const child of node.children) {
+    if (child.isFolder) {
+      files.push(...gatherDescendantFileSlugs(child))
+      continue
+    }
+
+    if (child.slug === "index" || child.slug.endsWith("/index")) {
+      continue
+    }
+
+    files.push(child.slug)
+  }
+
+  return files
+}
+
+function navigateToSlug(slug: string) {
+  const cleanSlug = slug.replace(/^\/+/, "")
+  const targetPath = cleanSlug.length === 0 || cleanSlug === "index" ? "/" : `/${cleanSlug}`
+  const targetUrl = new URL(targetPath, window.location.toString())
+
+  if (typeof window.spaNavigate === "function") {
+    window.spaNavigate(targetUrl, false)
+  } else {
+    window.location.assign(targetUrl.toString())
+  }
+}
+
+function handleFolderRandomClick(this: HTMLButtonElement, evt: MouseEvent) {
+  evt.stopPropagation()
+  const rawSlugs = this.dataset.randomSlugs
+  if (!rawSlugs) return
+
+  let slugs: string[]
+  try {
+    slugs = JSON.parse(rawSlugs)
+  } catch {
+    return
+  }
+
+  if (!Array.isArray(slugs) || slugs.length === 0) return
+  const choice = slugs[Math.floor(Math.random() * slugs.length)]
+  if (!choice) return
+
+  navigateToSlug(choice)
+}
+
 function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElement {
   const template = document.getElementById("template-file") as HTMLTemplateElement
   const clone = template.content.cloneNode(true) as DocumentFragment
@@ -107,6 +157,7 @@ function createFolderNode(
   const titleContainer = folderContainer.querySelector("div") as HTMLElement
   const folderOuter = li.querySelector(".folder-outer") as HTMLElement
   const ul = folderOuter.querySelector("ul") as HTMLUListElement
+  const randomButton = folderContainer.querySelector(".folder-random") as HTMLButtonElement | null
 
   const folderPath = node.slug
   folderContainer.dataset.folderpath = folderPath
@@ -138,6 +189,19 @@ function createFolderNode(
 
   if (!isCollapsed || folderIsPrefixOfCurrentSlug) {
     folderOuter.classList.add("open")
+  }
+
+  if (randomButton) {
+    const randomSlugs = Array.from(
+      new Set(
+        gatherDescendantFileSlugs(node)
+          .map((slug) => simplifySlug(slug))
+          .filter((slug) => slug !== "index" && slug !== "/"),
+      ),
+    )
+
+    randomButton.dataset.randomSlugs = JSON.stringify(randomSlugs)
+    randomButton.disabled = randomSlugs.length === 0
   }
 
   for (const child of node.children) {
@@ -254,6 +318,15 @@ async function setupExplorer(currentSlug: FullSlug) {
     for (const icon of folderIcons) {
       icon.addEventListener("click", toggleFolder)
       window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
+    }
+
+    const randomButtons = explorer.getElementsByClassName(
+      "folder-random",
+    ) as HTMLCollectionOf<HTMLButtonElement>
+    for (const button of randomButtons) {
+      const handler = handleFolderRandomClick.bind(button)
+      button.addEventListener("click", handler)
+      window.addCleanup(() => button.removeEventListener("click", handler))
     }
   }
 }

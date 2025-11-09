@@ -149,6 +149,33 @@ export default ((userOpts?: Partial<Options>) => {
                   <span class="folder-title"></span>
                 </button>
               </div>
+              <button
+                type="button"
+                class="folder-random"
+                aria-label="Jump to a random page in this folder"
+                title="Random item"
+                data-random-page="true"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3.5" y="3.5" width="17" height="17" rx="4"></rect>
+                  <circle cx="9" cy="8" r="1.2" fill="currentColor"></circle>
+                  <circle cx="15" cy="8" r="1.2" fill="currentColor"></circle>
+                  <circle cx="9" cy="12" r="1.2" fill="currentColor"></circle>
+                  <circle cx="15" cy="12" r="1.2" fill="currentColor"></circle>
+                  <circle cx="9" cy="16" r="1.2" fill="currentColor"></circle>
+                  <circle cx="15" cy="16" r="1.2" fill="currentColor"></circle>
+                </svg>
+              </button>
             </div>
             <div class="folder-outer">
               <ul class="content"></ul>
