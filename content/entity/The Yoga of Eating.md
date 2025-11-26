@@ -14,4 +14,4 @@ created-on: '2022-01-17'
 
 Some foods are consumed only for the body feeling they provide - good and bad.
 
-The choices you made in the past were the best you could do with the knowledge you had available. You may have chosen foods in the past to deal with the grief and trauma of life. Your body has received what you have given it, and gotten you this far using it. your body loves you.
+[[The choices you made in the past were the best you could do with the knowledge you had available]]. You may have chosen foods in the past to deal with the grief and trauma of life. Your body has received what you have given it, and gotten you this far using it. your body loves you.
