@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-04-17'
+created-on: '[[2023-04-17]]'
 url: https://campuscomplex.place/
 ---
 

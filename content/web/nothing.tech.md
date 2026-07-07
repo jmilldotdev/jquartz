@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-03-01'
+created-on: '[[2025-03-01]]'
 url: https://us.nothing.tech/
 ---
 

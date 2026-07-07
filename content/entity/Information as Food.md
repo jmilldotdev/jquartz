@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2021-04-05"
+created-on: "[[2021-04-05]]"
 ---
 Idea from @ Tiago Forte's courses (not sure of original source). Says information is like food:
 - You can't get by with too little (malnourishment) and you can't get by with too much (overeating, obesity)

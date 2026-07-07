@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-09-22'
+created-on: '[[2021-09-22]]'
 ---
 Pu, or the Uncarved Block, represents the natural state of something. Something which is undisturbed. Pu represents an infinite simplicity and infinite complexity. Pu is the fresh snow after a blizzard calms.
 

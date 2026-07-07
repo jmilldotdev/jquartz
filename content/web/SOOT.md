@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-08-02'
+created-on: '[[2025-08-02]]'
 url: https://www.soot.com/
 ---
 
@@ -22,4 +22,4 @@ Explore
 
 Visit SOOT World. A spatial directory of the growing universe of SOOT. Each image links to another space.
 
-![[attachments/Pasted image 20250802082918.png]]
+![[attachments/Pasted image 20250802082918.webp]]

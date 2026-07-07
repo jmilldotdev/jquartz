@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-04-12"
+created-on: "[[2022-04-12]]"
 ---
 
 These ads are essentially telling customers, "FYI, product X exists. Here's how it works. It's available if you need it."

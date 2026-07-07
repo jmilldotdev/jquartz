@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-01-05'
+created-on: '[[2024-01-05]]'
 ---
 
 > **Constant Elasticity of Substitution** (CES), in economics, is a property of some production functions and utility functions. Several economists have featured in the topic and have contributed in the final finding of the constant. They include Tom McKenzie, John Hicks and Joan Robinson. The vital economic element of the measure is that it provided the producer a clear picture of how to move between different modes or types of production.

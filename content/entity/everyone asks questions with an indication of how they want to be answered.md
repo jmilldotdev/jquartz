@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-09-12"
+created-on: "[[2025-09-12]]"
 ---
 
 Related to AI, sycophancy etc

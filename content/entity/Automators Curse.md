@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-09-12"
+created-on: "[[2025-09-12]]"
 ---
 
 When the automation of a process is your primary function, you are incentive misaligned with the salary model. Once the automation is done, you either have to:

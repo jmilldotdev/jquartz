@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-07-28'
+created-on: '[[2021-07-28]]'
 ---
 
 > Affiliate refunding is a process where by you buy something with an affiliate link, refund the item and then keep commision. This works best with digital items but have not many sites that it’s doable on.

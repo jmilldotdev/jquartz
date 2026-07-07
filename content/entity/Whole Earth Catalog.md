@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-10-18'
+created-on: '[[2023-10-18]]'
 ---
 
 > The **Whole Earth Catalog** (WEC) was an American counterculture magazine and product catalog published by Stewart Brand several times a year between 1968 and 1972, and occasionally thereafter, until 1998. The magazine featured essays and articles, but was primarily focused on product reviews. The editorial focus was on self-sufficiency, ecology, alternative education, "do it yourself" (DIY), and holism, and featured the slogan "access to tools". While WEC listed and reviewed a wide range of products (clothing, books, tools, machines, seeds, etc.), it did not sell any of the products directly. Instead, the vendor's contact information was listed alongside the item and its review. This is why, while not a regularly published periodical, numerous editions and updates were required to keep price and availability information up to date.

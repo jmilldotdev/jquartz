@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-10-24"
+created-on: "[[2023-10-24]]"
 ---
 
 The difference between excellent writing and generic writing is entirely in how specific and therefore unexpected the language is.

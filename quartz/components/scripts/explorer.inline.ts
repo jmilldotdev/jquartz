@@ -267,7 +267,7 @@ async function setupExplorer(currentSlug: FullSlug) {
     })
 
     const explorerUl = explorer.querySelector(".explorer-ul")
-    if (!explorerUl) continue
+    if (!(explorerUl instanceof HTMLElement)) continue
 
     // Create and insert new content
     const fragment = document.createDocumentFragment()

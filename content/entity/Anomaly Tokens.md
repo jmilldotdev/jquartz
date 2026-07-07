@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-02-13'
+created-on: '[[2023-02-13]]'
 ---
 
 [SolidGoldMagikarp II: technical details and more recent findings - LessWrong](https://www.lesswrong.com/posts/Ya9LzwEbfaAMY8ABo/solidgoldmagikarp-ii-technical-details-and-more-recent)

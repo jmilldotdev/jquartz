@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-11-22'
+created-on: '[[2024-11-22]]'
 url: https://www.playsuckup.com/
 ---
 

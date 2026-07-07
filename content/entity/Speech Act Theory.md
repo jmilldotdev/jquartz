@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-10-27'
+created-on: '[[2022-10-27]]'
 ---
 
 >  In speech act theory, utterances are analyzed not for their truth value—the predominant obsession of philosophers of language up to that point—but instead as actions that are undertaken by people in physical and social contexts—actions that have particular preconditions and effects.

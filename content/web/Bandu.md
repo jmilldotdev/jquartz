@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-02-10'
+created-on: '[[2024-02-10]]'
 url: https://boardgamegeek.com/boardgame/1231/bandu
 ---
 

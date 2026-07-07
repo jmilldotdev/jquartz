@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-04-17'
+created-on: '[[2023-04-17]]'
 url: https://mint.fun/ethereum/0xA1c431599696c4BA0bf6Aa17839196c363A40d38
 ---
 

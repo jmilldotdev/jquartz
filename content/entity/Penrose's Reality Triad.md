@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-02-01'
+created-on: '[[2022-02-01]]'
 ---
 
 Reality consists of three mysteries: *the physical, the mental, and the platonic-mathematical*

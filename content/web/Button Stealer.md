@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-07-28'
+created-on: '[[2024-07-28]]'
 url: https://anatolyzenkov.com/stolen-buttons
 ---
 

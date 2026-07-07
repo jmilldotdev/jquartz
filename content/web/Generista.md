@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-06-24'
+created-on: '[[2024-06-24]]'
 url: https://www.figma.com/community/plugin/1381023331156965890/generista
 ---
 

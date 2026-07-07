@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-10-30'
+created-on: '[[2022-10-30]]'
 url: https://www.figma.com/community/plugin/1159123024924461424/html-to-design
 ---
 

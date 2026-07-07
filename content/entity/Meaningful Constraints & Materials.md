@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-11-05"
+created-on: "[[2023-11-05]]"
 ---
 
 Constraints as a way to imbue meaning into a creative process - ie when all the options are available, take some away.

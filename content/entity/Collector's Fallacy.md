@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-10-05'
+created-on: '[[2021-10-05]]'
 ---
 The false equivalence that consuming something is the same as understanding it.
 

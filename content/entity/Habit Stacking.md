@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-08-17'
+created-on: '[[2021-08-17]]'
 ---
 Batching things you want to do with things you want yourself to do, essentially entwining them
 

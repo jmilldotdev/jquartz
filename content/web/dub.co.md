@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-09-20'
+created-on: '[[2024-09-20]]'
 url: https://dub.co/
 ---
 

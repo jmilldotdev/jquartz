@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-03-04"
+created-on: "[[2023-03-04]]"
 ---
 
 They are both:

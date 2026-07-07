@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-16'
+created-on: '[[2021-04-16]]'
 ---
 What people collectively believe in. Things like religion, companies, and artists' personas.
 

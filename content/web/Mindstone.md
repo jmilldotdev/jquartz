@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-04-29'
+created-on: '[[2022-04-29]]'
 url: https://mindstone.tuancao.me/
 ---
 

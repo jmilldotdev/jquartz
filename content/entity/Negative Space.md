@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-05'
+created-on: '[[2021-04-05]]'
 ---
 ### Wikipedia
 > Negative space, in art, is the space around and between the subject of an image. Negative space may be most evident when the space around a subject, not the subject itself, forms an interesting or artistically relevant shape, and such space occasionally is used to artistic effect as the "real" subject of an image.

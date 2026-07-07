@@ -3,10 +3,10 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-11-15"
+created-on: "[[2025-11-15]]"
 ---
 
-![[attachments/Pasted image 20251115092435.png]]
+![[attachments/Pasted image 20251115092435.webp]]
 
 > A **stenomask** is a hand-held microphone built into a padded, soundproof enclosure that fits over the speaker's mouth or nose and mouth. Some lightweight versions may be fitted with an elastic neck strap to hold them in place while freeing the user's hands for other tasks. The purpose of a stenomask is to allow a person to speak without being heard by other people, and to keep background noise away from the microphone.
 >

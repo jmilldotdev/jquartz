@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-12-18'
+created-on: '[[2022-12-18]]'
 url: https://natto.dev/
 ---
 

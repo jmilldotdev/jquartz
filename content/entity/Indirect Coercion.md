@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-10-24'
+created-on: '[[2021-10-24]]'
 ---
 There is nothing that says we can't go live in the wild like primitive people, but in actuality there is only so much habitable wild land left, and there is only so much room in the economy for small business owners and celebrities. So most are indirectly coerced into being someone's employee.
 

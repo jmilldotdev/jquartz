@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-11-10'
+created-on: '[[2024-11-10]]'
 url: https://refero.design/
 ---
 

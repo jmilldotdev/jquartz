@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-09-13'
+created-on: '[[2024-09-13]]'
 url: http://www.tapedeck.org/
 ---
 

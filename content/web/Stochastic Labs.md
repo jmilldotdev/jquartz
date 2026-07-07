@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-05-04'
+created-on: '[[2024-05-04]]'
 url: https://stochasticlabs.org/people/
 ---
 

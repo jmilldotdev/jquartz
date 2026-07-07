@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2024-12-03"
+created-on: "[[2024-12-03]]"
 ---
 
 [Rule Breaking, Honesty, and Migration | The Journal of Law and Economics: Vol 66, No 2](https://www.journals.uchicago.edu/doi/abs/10.1086/723112)

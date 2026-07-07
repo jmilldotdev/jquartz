@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-05-27'
+created-on: '[[2023-05-27]]'
 url: https://n-e-r-v-o-u-s.com/shop/product.php?code=337
 ---
 
@@ -13,5 +13,5 @@ The Infinity Puzzle ™ is a natural wood puzzle that tiles in the plane. This m
   
 This puzzle is extra challenging as it has no image or defined shape to guide assembly. Multiple infinity puzzles can be combined to create a larger continuous puzzle. The image above shows some of the creative combinations possible with two infinity puzzles of different colors
 
-![[attachments/Pasted image 20230527073554.png]]
+![[attachments/Pasted image 20230527073554.webp]]
 

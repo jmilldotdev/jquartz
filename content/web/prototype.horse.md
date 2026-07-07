@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-03-02'
+created-on: '[[2024-03-02]]'
 url: http://www.prototype.horse/
 ---
 

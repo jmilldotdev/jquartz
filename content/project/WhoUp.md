@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2024-11-05"
+created-on: "[[2024-11-05]]"
 tagline: reprogram your doomscrolling
 year: "2024"
 genre: Web
@@ -16,7 +16,7 @@ An app built at the Edge City Lanna Hackathon in 2024. The idea is an app which 
 - Answer to mindfulness prompts and get prophecies with the Great Monolith when broadcasting.
 - Your moments of connection are stored as alien plants in your zen garden and on-chain.
 
-![[attachments/Pasted image 20251109094422.png]]
-![[attachments/Pasted image 20251109094714.png]]
+![[attachments/Pasted image 20251109094422.webp]]
+![[attachments/Pasted image 20251109094714.webp]]
 
-![[attachments/Pasted image 20251109094740.png]]
+![[attachments/Pasted image 20251109094740.webp]]

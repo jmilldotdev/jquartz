@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-13'
+created-on: '[[2021-04-13]]'
 ---
 >Tsundoku (Japanese: 積ん読) is acquiring reading materials but letting them pile up in one's home without reading them. It is also used to refer to books ready for reading later when they are on a bookshelf.
 >[Wikipedia](https://en.wikipedia.org/wiki/Tsundoku)

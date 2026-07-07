@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-05'
+created-on: '[[2021-04-05]]'
 ---
 Interlocking opposed beliefs which ultimately cause inactions. Protects the ego and keeps it safe.
 

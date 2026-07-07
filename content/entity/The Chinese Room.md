@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-11-04'
+created-on: '[[2023-11-04]]'
 ---
 
 here’s a lovely thought experiment called The Chinese Room posed by John Searle:

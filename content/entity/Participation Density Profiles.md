@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-30'
+created-on: '[[2021-04-30]]'
 ---
 Characteristics of how a user participates in a social network over time.
 

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-11-26'
+created-on: '[[2025-11-26]]'
 url: https://www.cladlabs.ai/
 ---
 
@@ -12,4 +12,4 @@ Experience the next generation of AI-powered development. Write better code, fas
 
 Brainrot IDE
 
-![[attachments/chad-ide - 2025-11-26.png]]
+![[attachments/chad-ide - 2025-11-26.webp]]

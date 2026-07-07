@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-09-22'
+created-on: '[[2021-09-22]]'
 ---
 A noisy channel is a channel which has some _channel capacity_ which obscures the information sent through the channel. It is used in Encoder-Decoder models where a message is encoded through a channel using some function and decoded on the other end using a complementary function
 

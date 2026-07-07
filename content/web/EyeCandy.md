@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-05-13'
+created-on: '[[2023-05-13]]'
 url: https://eyecannndy.com/
 ---
 

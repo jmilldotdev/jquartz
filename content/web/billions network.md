@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-08-08'
+created-on: '[[2025-08-08]]'
 url: https://billions.network/
 ---
 

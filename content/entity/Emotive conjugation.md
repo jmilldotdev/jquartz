@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-03-15'
+created-on: '[[2025-03-15]]'
 ---
 
 > In rhetoric, emotive or emotional conjugation (also known as Russell's conjugation) is a rhetorical technique used to create an intrinsic bias towards or against a piece of information. Bias is created by using the emotional connotation of a word to prime a response from the audience by creating a loaded statement. When used seriously, such loaded language can lend false support to an argument through emotional connotation and implication rather than through fact.

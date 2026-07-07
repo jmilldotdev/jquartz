@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-06-10'
+created-on: '[[2024-06-10]]'
 url: https://store.steampowered.com/app/1222550/Mercury_Prime/
 ---
 

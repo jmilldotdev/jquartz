@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-05-04'
+created-on: '[[2021-05-04]]'
 ---
 The general concept that among limited edition things, the first in a genre or product tends to be the most valuable.
 

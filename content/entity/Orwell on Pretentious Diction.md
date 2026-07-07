@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-04-12"
+created-on: "[[2022-04-12]]"
 ---
 Words like *phenomenon, element, individual (as noun), objective, categorical, effective, virtual, basic, primary, promote, constitute, exhibit, exploit, utilize, eliminate, liquidate*, are used to **dress up simple statements** and give an air of **scientific impartiality to biassed judgements**. 
 

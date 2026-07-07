@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-10-11'
+created-on: '[[2021-10-11]]'
 ---
 
 Wage growth in industries with low or limited productivity growth — is now called **Baumol’s Cost Disease**. 

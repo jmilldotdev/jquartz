@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-08'
+created-on: '[[2021-04-08]]'
 ---
 In creativity, _divergence_ is the process of exploring, researching, learning, finding what's interesting and _convergence_ is when you stop exploring, focus, and start putting what you have together into something coherent.
 

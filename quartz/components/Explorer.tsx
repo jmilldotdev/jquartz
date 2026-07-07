@@ -30,21 +30,64 @@ const defaultOptions: Options = {
     return node
   },
   sortFn: (a, b) => {
-    // Sort order: folders first, then files. Sort folders and files alphabeticall
-    if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-      // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-      // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
-      return a.displayName.localeCompare(b.displayName, undefined, {
-        numeric: true,
-        sensitivity: "base",
-      })
+    // Sort order: folders first, then newest captured/created content, then alphabetical.
+    if (a.isFolder !== b.isFolder) {
+      return a.isFolder ? -1 : 1
     }
 
-    if (!a.isFolder && b.isFolder) {
-      return 1
-    } else {
-      return -1
+    const aStack = [a]
+    let aTime = Number.NEGATIVE_INFINITY
+    while (aStack.length > 0) {
+      const node = aStack.pop()
+      if (!node) continue
+      const rawDate = node.data?.date as Date | string | undefined
+      const ownTime =
+        rawDate instanceof Date
+          ? rawDate.getTime()
+          : rawDate
+            ? Date.parse(rawDate)
+            : Number.NEGATIVE_INFINITY
+      if (!Number.isNaN(ownTime)) {
+        aTime = Math.max(aTime, ownTime)
+      }
+      aStack.push(...node.children)
     }
+
+    const bStack = [b]
+    let bTime = Number.NEGATIVE_INFINITY
+    while (bStack.length > 0) {
+      const node = bStack.pop()
+      if (!node) continue
+      const rawDate = node.data?.date as Date | string | undefined
+      const ownTime =
+        rawDate instanceof Date
+          ? rawDate.getTime()
+          : rawDate
+            ? Date.parse(rawDate)
+            : Number.NEGATIVE_INFINITY
+      if (!Number.isNaN(ownTime)) {
+        bTime = Math.max(bTime, ownTime)
+      }
+      bStack.push(...node.children)
+    }
+
+    const aHasDate = Number.isFinite(aTime)
+    const bHasDate = Number.isFinite(bTime)
+
+    if (aHasDate && bHasDate && aTime !== bTime) {
+      return bTime - aTime
+    } else if (aHasDate && !bHasDate) {
+      return -1
+    } else if (!aHasDate && bHasDate) {
+      return 1
+    }
+
+    // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
+    // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
+    return a.displayName.localeCompare(b.displayName, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    })
   },
   filterFn: (node) => node.slugSegment !== "tags",
   order: ["filter", "map", "sort"],

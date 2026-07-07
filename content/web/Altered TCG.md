@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-04-20'
+created-on: '[[2024-04-20]]'
 url: https://www.altered.gg/
 ---
 

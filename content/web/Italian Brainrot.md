@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-05-02'
+created-on: '[[2025-05-02]]'
 url: https://en.wikipedia.org/wiki/Italian_brainrot
 ---
 

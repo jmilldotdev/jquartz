@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-04-12"
+created-on: "[[2022-04-12]]"
 ---
 i. Never use a metaphor, simile or other figure of speech which you are used to seeing in print. 
 ii. Never use a long word where a short one will do. 

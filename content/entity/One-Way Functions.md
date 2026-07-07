@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-15'
+created-on: '[[2021-04-15]]'
 ---
 > In computer science, a one-way function is a function that is easy to compute on every input, but hard to invert given the image of a random input.
 > [Wikipedia](https://en.wikipedia.org/wiki/One-way_function)

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-05-09'
+created-on: '[[2024-05-09]]'
 ---
 > The **Meisner Technique** is an approach to acting developed by American theatre practitioner Sanford Meisner.
 >

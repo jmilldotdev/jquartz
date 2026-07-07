@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-10-17'
+created-on: '[[2021-10-17]]'
 ---
 Good stories decompose into the following formula:
 

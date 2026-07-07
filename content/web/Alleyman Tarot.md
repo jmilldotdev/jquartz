@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-05-18'
+created-on: '[[2023-05-18]]'
 url: https://www.alleymantarot.com/collections/all
 ---
   

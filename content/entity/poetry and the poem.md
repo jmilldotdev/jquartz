@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-11-06"
+created-on: "[[2023-11-06]]"
 ---
 
 poetry is the raw material, the poem is the decided form when someone has given it value as an artifact.

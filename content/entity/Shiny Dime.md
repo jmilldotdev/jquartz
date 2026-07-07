@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-10-17'
+created-on: '[[2021-10-17]]'
 ---
 To avoid the panoramic thought piece, focus in on something small. Optimize for _interestingness_. Hookiness.
 

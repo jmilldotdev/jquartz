@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-15'
+created-on: '[[2021-04-15]]'
 ---
 > "Worrying is like paying a debt you don't owe"
 

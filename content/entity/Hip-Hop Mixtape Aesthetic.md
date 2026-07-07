@@ -3,11 +3,11 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-07-20'
+created-on: '[[2021-07-20]]'
 ---
 Heavily photoshopped, usually has the rapper front and center with a lot of random shit going on in the background
 
-![[attachments/Pasted image 20210812074800.png]]
+![[attachments/Pasted image 20210812074800.webp]]
 
 Related, the hip-hop DVD, or early, pre-Youtube, pre-Soulja Boy hip-hop videos are absolute vibes
 

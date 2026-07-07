@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-10-27"
+created-on: "[[2022-10-27]]"
 ---
 
 In a generative system, there are possible unreachable states, to go along with the overwhelming space of reachable states.

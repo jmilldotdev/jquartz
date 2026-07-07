@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-09-14"
+created-on: "[[2023-09-14]]"
 ---
 
 a working note for the ideas of what we get Doomer to do. we need ways to shoot AI into crazyspace. Specific Example Retrieval comes to mind, the specificity of language being a demarcation of that which is interesting.

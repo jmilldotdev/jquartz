@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-09-22'
+created-on: '[[2021-09-22]]'
 ---
 [Response surface methodology - Wikipedia](https://en.wikipedia.org/wiki/Response_surface_methodology) 
 

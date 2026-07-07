@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-10-21'
+created-on: '[[2023-10-21]]'
 url: https://twitter.com/versandlukas/status/1712898246786306363
 ---
 We at raccoon labs are proud to introduce our latest project, an inventive new concept called a lossless clout lottery. To play go to http://versandlukas.com

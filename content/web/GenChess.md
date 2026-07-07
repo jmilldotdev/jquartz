@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-12-03'
+created-on: '[[2024-12-03]]'
 url: https://labs.google/genchess
 ---
 

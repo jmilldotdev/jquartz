@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-01-17"
+created-on: "[[2022-01-17]]"
 ---
 
 Negative emotions like fear, jealousy, anger, etc build quickly and fall slowly. 

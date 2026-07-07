@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-05'
+created-on: '[[2021-04-05]]'
 ---
 ### Definition
 > "A box break is an event in which a box or case of cards is divided up among collectors who purchase the right to receive cards as part of a random drawing. It’s similar to a raffle except that each participant is guaranteed to receive a certain number of cards.

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-12-08'
+created-on: '[[2023-12-08]]'
 url: https://playatech.com/
 ---
 

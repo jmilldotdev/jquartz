@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-02-22'
+created-on: '[[2025-02-22]]'
 url: https://pmfordie.com/
 ---
 

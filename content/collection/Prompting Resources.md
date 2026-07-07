@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-11-19"
+created-on: "[[2025-11-19]]"
 ---
 
 [AI Dungeon Guidebook](https://help.aidungeon.com/)

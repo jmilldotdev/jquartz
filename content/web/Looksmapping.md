@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-04-17'
+created-on: '[[2025-04-17]]'
 url: https://looksmapping.com/
 ---
 

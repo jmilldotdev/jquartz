@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-10-18'
+created-on: '[[2023-10-18]]'
 url: https://cari.institute/
 ---
 CARI, or Consumer Aesthetics Research Institute, is an online community dedicated to developing a visual lexicon of consumer ephemera from the 1970s until now.

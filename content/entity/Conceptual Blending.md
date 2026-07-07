@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-02-09'
+created-on: '[[2022-02-09]]'
 ---
 ```
 Conceptual blending is where two or more existing concepts are blended together to form a new concept. The blending of the concepts is done in a way that is non-arbitrary. A new concept is formed by taking the meaning of one concept and the form of another. For example, the concept of a car and the concept of a plane are blended to form the concept of a carplane. The concept of a carplane is a non-arbitrary combination of the two concepts. The concept of a carplane is a new concept, with a new meaning, and a new form.

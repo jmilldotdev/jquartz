@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-12-10'
+created-on: '[[2023-12-10]]'
 url: https://boardgamegeek.com/boardgame/4550/1000-blank-white-cards
 ---
 

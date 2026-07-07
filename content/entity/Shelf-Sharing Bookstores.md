@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-11-23'
+created-on: '[[2024-11-23]]'
 ---
 
 Rent a shelf in a bookstore and use it to sell whatever you want.

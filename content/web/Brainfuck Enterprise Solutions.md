@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-12-01'
+created-on: '[[2023-12-01]]'
 url: https://github.com/bf-enterprise-solutions
 ---
 

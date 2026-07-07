@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-10-20'
+created-on: '[[2024-10-20]]'
 ---
 > In the Dungeons & Dragons (D&D) role-playing game, the Dungeon Master (DM) is the game organizer and participant in charge of creating the details and challenges of a given adventure, while maintaining a realistic continuity of events. In effect, the Dungeon Master controls all aspects of the game, except for the actions of the player characters (PCs), and describes to the players what their characters experience. Regular Dungeons & Dragons groups consist of a dungeon master and several players.
 >

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-11-26"
+created-on: "[[2025-11-26]]"
 ---
 
 Amazon’s new 'Buy for Me' feature helps customers find and buy products from other brands’ sites

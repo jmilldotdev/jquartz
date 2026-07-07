@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-10-18'
+created-on: '[[2023-10-18]]'
 url: https://wholeearth.info/
 ---
 

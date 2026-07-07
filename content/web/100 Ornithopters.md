@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-05-17'
+created-on: '[[2025-05-17]]'
 url: https://cubecobra.com/cube/overview/100-ornithopters
 ---
 

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-08-17"
+created-on: "[[2022-08-17]]"
 ---
 What if there is a parallel for [[Sutton's Bitter Lesson]] but for energy.
 

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-09-27'
+created-on: '[[2021-09-27]]'
 ---
 **Anti-memory** is _something related to the current context which you are **unlikely to remember yourself**_
 

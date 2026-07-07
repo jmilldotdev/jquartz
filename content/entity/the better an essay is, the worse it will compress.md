@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-09-14"
+created-on: "[[2023-09-14]]"
 ---
 
 Try asking it to summarize a draft of an essay. If the result is anything like the original, the essay is bad.

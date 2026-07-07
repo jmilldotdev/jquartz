@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-03-17'
+created-on: '[[2024-03-17]]'
 url: https://www.delcomplex.com/
 ---
 

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-07-15'
+created-on: '[[2023-07-15]]'
 url: https://www.tumblr.com/eyepool/722652304002678784/computer-science-major-arcana
 ---
 

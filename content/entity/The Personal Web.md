@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-10-28'
+created-on: '[[2023-10-28]]'
 ---
 
 [Exploring the Personal Web ～ foreverliketh.is](https://foreverliketh.is/blog/exploring-the-personal-web/)

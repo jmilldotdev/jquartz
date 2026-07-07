@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-05'
+created-on: '[[2021-04-05]]'
 ---
 A freeware game that blew my mind in Middle school
 

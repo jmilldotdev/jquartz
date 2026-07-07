@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-10-14'
+created-on: '[[2024-10-14]]'
 ---
 
 Founders are _Punks_. So are technologists, activists, standards-makers, and hackers. Their actions reshape the boundaries of the _Commons_. This game is for them, because even if Punks don’t need permission, they need a plan.

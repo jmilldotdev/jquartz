@@ -3,10 +3,10 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-08-12'
+created-on: '[[2025-08-12]]'
 url: https://radicle.xyz/
 ---
 
 Radicle is an open source, peer-to-peer code collaboration stack built on Git. Unlike centralized code hosting platforms, there is no single entity controlling the network. Repositories are replicated across peers in a decentralized manner, and users are in full control of their data and workflow.
 
-![[attachments/Pasted image 20250812164941.png]]
+![[attachments/Pasted image 20250812164941.webp]]

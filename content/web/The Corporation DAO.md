@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-10-27'
+created-on: '[[2024-10-27]]'
 url: https://daodao.zone/dao/juno1xd2fed839exdvqfa4nqluyxxclvwul7kd48e9pyfm0z2g90dc37srnqy39/home
 ---
 

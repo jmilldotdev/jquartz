@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-05'
+created-on: '[[2021-04-05]]'
 ---
 
 I did this again with @ Lucy Qiu and I think it was something like:

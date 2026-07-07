@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-12-07'
+created-on: '[[2024-12-07]]'
 url: https://www.atlassian.com/software/statuspage
 ---
 

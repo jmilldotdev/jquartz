@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-02-08'
+created-on: '[[2025-02-08]]'
 url: https://cardconjurer.com/about
 ---
 

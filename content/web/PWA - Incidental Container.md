@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-09-07'
+created-on: '[[2024-09-07]]'
 url: https://www.publicworksadministration.com/featured-exhibition
 ---
 

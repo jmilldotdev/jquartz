@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-05-15'
+created-on: '[[2025-05-15]]'
 ---
 
 I do think Americans are desperate to do meaningful work with their hands. I think this because there are enormous ecologies of furniture restoration influencers, half of whom paint wooden furniture and the other half of whom strip the paint off.

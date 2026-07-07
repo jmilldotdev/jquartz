@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-11-05"
+created-on: "[[2023-11-05]]"
 ---
 
 Software that doesn't quantifiably make the acquisition of food or shelter easier for anyone. Pure entertainment technology.

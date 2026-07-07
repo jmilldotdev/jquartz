@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-09-07'
+created-on: '[[2025-09-07]]'
 ---
 
 Like most typical AI agents, we call the model in a loop. The idea behind an alloy is simple: instead of always calling the same model, sometimes call one and sometimes the other.

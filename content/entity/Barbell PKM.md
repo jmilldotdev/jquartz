@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2023-10-11"
+created-on: "[[2023-10-11]]"
 ---
 A Barbell Strategy means 'nothing in the middle'. Additionally, Taleb's Barbell strategy has the overwhelming majority on one end in 'low-risk, safe bets', and a small percentage on the other end in moonshot bets.
 

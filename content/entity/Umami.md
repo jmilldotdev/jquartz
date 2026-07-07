@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-05'
+created-on: '[[2021-04-05]]'
 ---
 > And yet, like pornography, umami is hard to describe in words. In the New Yorker, Hannah Goldfield defines it as “that deep, dark, meaty intensity that distinguishes seared beef, soy sauce, ripe tomato, Parmesan cheese, anchovies, and mushrooms, among other things. It hits the back of your throat and leaves you craving more.” It is deliciousness — umami, she explains, roughly translates to “deliciousness” in Japanese — but it is not just any deliciousness. Umami is a specific type of deliciousness, the savory thread connecting mushrooms to ripe tomatoes.
 > [Vox - What is Umami?](https://www.vox.com/the-goods/2018/12/10/18129391/what-is-umami-taste-msg)

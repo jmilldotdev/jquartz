@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-04-12"
+created-on: "[[2022-04-12]]"
 ---
 LLMs suffer from the problem of the Context Window, and that any information has to be provided as background within the context, and it doesn't remember anything from previous generations.
 

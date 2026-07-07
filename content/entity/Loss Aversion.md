@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-05-02'
+created-on: '[[2021-05-02]]'
 ---
 People experience approximately twice as much pain from loss as they derive pleasure from gain.
 

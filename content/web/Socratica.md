@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-08-30'
+created-on: '[[2024-08-30]]'
 url: https://www.socratica.info/
 ---
 

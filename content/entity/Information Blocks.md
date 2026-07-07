@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-05-02'
+created-on: '[[2021-05-02]]'
 ---
 **Procedure, Process, Concept, Structure, Classification, Principle, Fact**
 

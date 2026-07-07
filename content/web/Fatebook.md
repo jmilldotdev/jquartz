@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-01-20'
+created-on: '[[2024-01-20]]'
 url: https://fatebook.io/
 ---
 

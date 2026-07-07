@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-02-22'
+created-on: '[[2025-02-22]]'
 url: https://apps.apple.com/us/app/status-sims-but-social-media/id6596771144
 ---
 

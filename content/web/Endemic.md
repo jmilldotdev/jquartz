@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-05-23'
+created-on: '[[2025-05-23]]'
 url: https://www.endemic.org/
 ---
 

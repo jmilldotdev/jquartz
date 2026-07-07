@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-11-09"
+created-on: "[[2025-11-09]]"
 ---
 
 this is a partial reflection of my Obsidian vault.

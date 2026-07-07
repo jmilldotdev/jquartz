@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-02-01'
+created-on: '[[2022-02-01]]'
 ---
 
 > Also known as **destructive defection**, a situation in game theory involving a group where individual incentives produce a suboptimal outcome for all participants. An intuitive illustration is a theater or concert: an individual audience member can get a better view by standing up from his seat, but then the person behind him will be forced to stand up, and so on until everyone is standing and the view is no better than before.

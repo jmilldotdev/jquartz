@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2021-04-05"
+created-on: "[[2021-04-05]]"
 ---
 So-bad-it's-good stuff. When you have an in-depth understanding of a medium, you can make enjoyably kitschy mockery artifacts
 

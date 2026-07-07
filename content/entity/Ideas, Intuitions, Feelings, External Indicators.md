@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-01-31"
+created-on: "[[2022-01-31]]"
 ---
 
 This is roughly my interpretation of the suits of the Tarot. It is projected onto Swords, Wands, Cups, Pentacles traditionally, but the Isaac deck has it projected onto Bombs, Keys, Hearts, Pennies.

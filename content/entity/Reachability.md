@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-04-30'
+created-on: '[[2021-04-30]]'
 ---
 ![](https://miro.medium.com/max/3840/1*yTWSACECxijHumDGlLFIMg.png)
 

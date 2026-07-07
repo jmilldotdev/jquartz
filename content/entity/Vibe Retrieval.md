@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2022-02-22"
+created-on: "[[2022-02-22]]"
 ---
 **Vibe Retrieval** is being able to retrieve reading highlights based on the current mood of what you're writing. and this is a more challenging thing to do than simple information retrieval since keywords and clustering don't do the job
 

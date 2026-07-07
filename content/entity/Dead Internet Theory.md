@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2021-10-02'
+created-on: '[[2021-10-02]]'
 ---
   The theory that the internet has been almost entirely taken over by AI. 
   

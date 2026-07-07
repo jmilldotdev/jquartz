@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-05-27'
+created-on: '[[2023-05-27]]'
 url: https://html.green/
 ---
 

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-11-11'
+created-on: '[[2023-11-11]]'
 url: https://about.sourcegraph.com/cody
 ---
 

@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-06-27'
+created-on: '[[2025-06-27]]'
 url: https://sonyinteractive.com/en/news/blog/haven-studios-experimenting-with-ml-driven-escape-room-games/
 ---
 

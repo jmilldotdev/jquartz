@@ -30,9 +30,9 @@
   display: flex;
   flex-direction: column;
   overflow-y: hidden;
+  min-height: 0;
 
-  min-height: 1.2rem;
-  flex: 0 1 auto;
+  flex: 1 1 auto;
   &.collapsed {
     flex: 0 1 1.2rem;
     & .fold {
@@ -108,11 +108,20 @@ button.desktop-explorer {
   }
 }
 
-.explorer-content {
+.explorer > .explorer-content {
+  flex: 1 1 auto;
+  min-height: 0;
   list-style: none;
   overflow: hidden;
-  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
   margin-top: 0.5rem;
+
+  & > ul.overflow {
+    max-height: 100%;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
 
   & ul {
     list-style: none;
@@ -124,7 +133,9 @@ button.desktop-explorer {
       color: var(--darkgray);
       opacity: 0.85;
       pointer-events: all;
-      transition: color 0.2s ease, opacity 0.2s ease;
+      transition:
+        color 0.2s ease,
+        opacity 0.2s ease;
 
       &:hover {
         color: var(--tertiary);
@@ -142,6 +153,7 @@ button.desktop-explorer {
     visibility: collapse;
     display: grid;
     grid-template-rows: 0fr;
+    overflow: hidden;
     transition-property: grid-template-rows, visibility;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
@@ -150,10 +162,12 @@ button.desktop-explorer {
   .folder-outer.open {
     visibility: visible;
     grid-template-rows: 1fr;
+    overflow: visible;
   }
 
   .folder-outer > ul {
-    overflow: hidden;
+    min-height: 0;
+    overflow: visible;
     margin-left: 6px;
     padding-left: 0.8rem;
     border-left: 1px solid var(--lightgray);
@@ -296,7 +310,8 @@ li:has(> .folder-outer:not(.open)) > .folder-container > svg {
       transition:
         transform 200ms ease,
         visibility 200ms ease;
-      overflow: hidden;
+      overflow-x: hidden;
+      overflow-y: auto;
       padding: 4rem 0 2rem 0;
       height: 100dvh;
       max-height: 100dvh;

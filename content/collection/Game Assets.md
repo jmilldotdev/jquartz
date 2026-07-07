@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: "2025-11-19"
+created-on: "[[2025-11-19]]"
 ---
 
 [Assets · Kenney](https://kenney.nl/assets)

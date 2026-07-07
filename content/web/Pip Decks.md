@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-12-30'
+created-on: '[[2023-12-30]]'
 url: https://pipdecks.com/pages/storyteller-tactics-card-deck
 ---
 

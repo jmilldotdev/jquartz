@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2022-10-19'
+created-on: '[[2022-10-19]]'
 url: https://twitter.com/erowidrecruiter
 ---
 

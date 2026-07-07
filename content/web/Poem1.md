@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-02-02'
+created-on: '[[2024-02-02]]'
 url: https://www.kickstarter.com/projects/genmon/poem-1-the-ai-poetry-clock
 ---
 

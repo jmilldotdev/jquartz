@@ -3,8 +3,8 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-05-02'
+created-on: '[[2025-05-02]]'
 url: https://concepts.engine.study/
 ---
 
-![[attachments/Pasted image 20250502111052.png]]
+![[attachments/Pasted image 20250502111052.webp]]

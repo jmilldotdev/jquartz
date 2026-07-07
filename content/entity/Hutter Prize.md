@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2023-04-17'
+created-on: '[[2023-04-17]]'
 ---
 
 > The **Hutter Prize** is a cash prize funded by Marcus Hutter which rewards data compression improvements on a specific 1 GB English text file, with the goal of encouraging research in artificial intelligence (AI).

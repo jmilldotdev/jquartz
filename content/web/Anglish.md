@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2024-03-09'
+created-on: '[[2024-03-09]]'
 url: https://anglish.org/wiki/Anglish
 ---
 

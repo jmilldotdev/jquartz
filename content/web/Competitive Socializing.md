@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-10-04'
+created-on: '[[2025-10-04]]'
 url: https://scyy.fi/compsoc-filler
 ---
 

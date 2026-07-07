@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-01-25'
+created-on: '[[2025-01-25]]'
 url: https://engineering.nyu.edu/research-innovation/entrepreneurship/future-labs/game-design
 ---
 

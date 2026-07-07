@@ -3,7 +3,7 @@ tags:
 aliases:
 related:
 publish: true
-created-on: '2025-08-12'
+created-on: '[[2025-08-12]]'
 url: https://simple-bench.com/
 ---
 
